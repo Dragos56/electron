@@ -1,0 +1,10 @@
+componente/back.jpg
+componente/DIODA.txt
+componente/BATERIE.txt
+componente/TRANZNPN.txt
+componente/TRANZPNP.txt
+componente/BEC.txt
+componente/CONDENS.txt
+componente/REZIST.txt
+componente/AND.txt
+componente/X.txt

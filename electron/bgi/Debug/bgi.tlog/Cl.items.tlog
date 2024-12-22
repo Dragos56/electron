@@ -1,12 +1,12 @@
-C:\code shit\electron\electron\bgiout.cxx;C:\code shit\electron\electron\bgi\Debug\bgiout.obj
-C:\code shit\electron\electron\dibutil.cxx;C:\code shit\electron\electron\bgi\Debug\dibutil.obj
-C:\code shit\electron\electron\drawing.cxx;C:\code shit\electron\electron\bgi\Debug\drawing.obj
-C:\code shit\electron\electron\file.cxx;C:\code shit\electron\electron\bgi\Debug\file.obj
-C:\code shit\electron\electron\main.cpp;C:\code shit\electron\electron\bgi\Debug\main.obj
-C:\code shit\electron\electron\misc.cxx;C:\code shit\electron\electron\bgi\Debug\misc.obj
-C:\code shit\electron\electron\mouse.cxx;C:\code shit\electron\electron\bgi\Debug\mouse.obj
-C:\code shit\electron\electron\palette.cxx;C:\code shit\electron\electron\bgi\Debug\palette.obj
-C:\code shit\electron\electron\main.cxx;C:\code shit\electron\electron\bgi\Debug\main.obj
-C:\code shit\electron\electron\text.cxx;C:\code shit\electron\electron\bgi\Debug\text.obj
-C:\code shit\electron\electron\winbgi.cxx;C:\code shit\electron\electron\bgi\Debug\winbgi.obj
-C:\code shit\electron\electron\winthread.cxx;C:\code shit\electron\electron\bgi\Debug\winthread.obj
+C:\facultate\proiectip\electron\electron\bgiout.cxx;C:\facultate\proiectip\electron\electron\bgi\Debug\bgiout.obj
+C:\facultate\proiectip\electron\electron\dibutil.cxx;C:\facultate\proiectip\electron\electron\bgi\Debug\dibutil.obj
+C:\facultate\proiectip\electron\electron\drawing.cxx;C:\facultate\proiectip\electron\electron\bgi\Debug\drawing.obj
+C:\facultate\proiectip\electron\electron\file.cxx;C:\facultate\proiectip\electron\electron\bgi\Debug\file.obj
+C:\facultate\proiectip\electron\electron\main.cpp;C:\facultate\proiectip\electron\electron\bgi\Debug\main.obj
+C:\facultate\proiectip\electron\electron\misc.cxx;C:\facultate\proiectip\electron\electron\bgi\Debug\misc.obj
+C:\facultate\proiectip\electron\electron\mouse.cxx;C:\facultate\proiectip\electron\electron\bgi\Debug\mouse.obj
+C:\facultate\proiectip\electron\electron\palette.cxx;C:\facultate\proiectip\electron\electron\bgi\Debug\palette.obj
+C:\facultate\proiectip\electron\electron\main.cxx;C:\facultate\proiectip\electron\electron\bgi\Debug\main.obj
+C:\facultate\proiectip\electron\electron\text.cxx;C:\facultate\proiectip\electron\electron\bgi\Debug\text.obj
+C:\facultate\proiectip\electron\electron\winbgi.cxx;C:\facultate\proiectip\electron\electron\bgi\Debug\winbgi.obj
+C:\facultate\proiectip\electron\electron\winthread.cxx;C:\facultate\proiectip\electron\electron\bgi\Debug\winthread.obj

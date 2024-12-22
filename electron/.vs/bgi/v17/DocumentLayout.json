@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\code shit\\electron\\electron\\",
+  "WorkspaceRootPath": "C:\\facultate\\proiectip\\electron\\electron\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B0A1AF87-F642-456A-9C64-9C7ABBDF9EC1}|bgi.vcxproj|C:\\code shit\\electron\\electron\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{B0A1AF87-F642-456A-9C64-9C7ABBDF9EC1}|bgi.vcxproj|C:\\facultate\\proiectip\\electron\\electron\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B0A1AF87-F642-456A-9C64-9C7ABBDF9EC1}|bgi.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0A1AF87-F642-456A-9C64-9C7ABBDF9EC1}|bgi.vcxproj|C:\\code shit\\electron\\electron\\test.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{B0A1AF87-F642-456A-9C64-9C7ABBDF9EC1}|bgi.vcxproj|C:\\facultate\\proiectip\\electron\\electron\\test.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{B0A1AF87-F642-456A-9C64-9C7ABBDF9EC1}|bgi.vcxproj|solutionrelative:test.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
@@ -24,11 +24,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.cpp",
-              "DocumentMoniker": "C:\\code shit\\electron\\electron\\main.cpp",
+              "DocumentMoniker": "C:\\facultate\\proiectip\\electron\\electron\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
-              "ToolTip": "C:\\code shit\\electron\\electron\\main.cpp",
+              "ToolTip": "C:\\facultate\\proiectip\\electron\\electron\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAAFABAAAAAAAAAAAgwFcBAAAFAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-27T17:46:52.266Z",
               "EditorCaption": ""
@@ -37,9 +37,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "test.txt",
-              "DocumentMoniker": "C:\\code shit\\electron\\electron\\test.txt",
+              "DocumentMoniker": "C:\\facultate\\proiectip\\electron\\electron\\test.txt",
               "RelativeDocumentMoniker": "test.txt",
-              "ToolTip": "C:\\code shit\\electron\\electron\\test.txt",
+              "ToolTip": "C:\\facultate\\proiectip\\electron\\electron\\test.txt",
               "RelativeToolTip": "test.txt",
               "ViewState": "AgIAAAoAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
