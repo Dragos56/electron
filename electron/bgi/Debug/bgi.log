@@ -1,172 +1,108 @@
-﻿  bgiout.cxx
-  dibutil.cxx
-  drawing.cxx
-C:\facultate\proiectip\electron\electron\drawing.cxx(819,9): warning C4101: 'tries': unreferenced local variable
-C:\facultate\proiectip\electron\electron\drawing.cxx(859,10): warning C4101: 'answer': unreferenced local variable
-C:\facultate\proiectip\electron\electron\drawing.cxx(1110,6): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  file.cxx
-  main.cpp
-C:\facultate\proiectip\electron\electron\main.cpp(53,32): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(105,14): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(106,33): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(106,28): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(106,14): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(106,10): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(107,44): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(107,39): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(107,25): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(107,20): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(108,33): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(108,29): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(108,25): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(108,20): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(124,89): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(124,67): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(124,45): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(124,23): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(136,79): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(136,69): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(136,64): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(136,61): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(136,48): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(136,26): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(147,46): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(147,38): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(147,30): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(147,22): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(149,30): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(149,22): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(171,31): warning C4305: '+=': truncation from 'double' to 'float'
-C:\facultate\proiectip\electron\electron\main.cpp(173,31): warning C4305: '-=': truncation from 'double' to 'float'
-C:\facultate\proiectip\electron\electron\main.cpp(263,20): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(305,35): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(306,35): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(310,37): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(311,37): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(330,35): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(331,35): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(395,49): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(396,49): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(402,31): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(402,28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(456,17): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(494,41): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(494,33): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(494,25): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(494,17): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(495,36): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(495,28): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(495,20): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(495,12): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(496,26): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(496,21): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(496,15): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(496,10): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(497,36): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(497,28): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(497,20): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(497,12): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(499,72): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(499,64): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(499,55): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(499,47): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(501,37): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(501,29): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(501,20): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(501,12): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(502,36): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(502,28): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(502,20): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(502,12): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(504,37): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(504,29): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(504,20): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(504,12): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(506,70): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(506,62): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(506,53): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(506,45): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(518,39): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(531,38): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(532,38): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(549,34): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(550,34): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(579,37): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(579,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(579,21): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(583,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(583,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(608,28): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(611,28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(611,25): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(616,41): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(616,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(646,41): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cpp(646,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-  misc.cxx
-C:\facultate\proiectip\electron\electron\misc.cxx(595,38): warning C4838: conversion from 'int' to 'unsigned short' requires a narrowing conversion
-C:\facultate\proiectip\electron\electron\misc.cxx(595,45): warning C4838: conversion from 'int' to 'unsigned short' requires a narrowing conversion
-C:\facultate\proiectip\electron\electron\misc.cxx(595,52): warning C4838: conversion from 'int' to 'unsigned short' requires a narrowing conversion
-C:\facultate\proiectip\electron\electron\misc.cxx(595,59): warning C4838: conversion from 'int' to 'unsigned short' requires a narrowing conversion
-C:\facultate\proiectip\electron\electron\misc.cxx(595,66): warning C4838: conversion from 'int' to 'unsigned short' requires a narrowing conversion
-C:\facultate\proiectip\electron\electron\misc.cxx(595,73): warning C4838: conversion from 'int' to 'unsigned short' requires a narrowing conversion
-C:\facultate\proiectip\electron\electron\misc.cxx(595,80): warning C4838: conversion from 'int' to 'unsigned short' requires a narrowing conversion
-C:\facultate\proiectip\electron\electron\misc.cxx(595,87): warning C4838: conversion from 'int' to 'unsigned short' requires a narrowing conversion
-C:\facultate\proiectip\electron\electron\misc.cxx(596,38): warning C4838: conversion from 'int' to 'unsigned short' requires a narrowing conversion
-C:\facultate\proiectip\electron\electron\misc.cxx(596,45): warning C4838: conversion from 'int' to 'unsigned short' requires a narrowing conversion
-C:\facultate\proiectip\electron\electron\misc.cxx(596,52): warning C4838: conversion from 'int' to 'unsigned short' requires a narrowing conversion
-C:\facultate\proiectip\electron\electron\misc.cxx(596,59): warning C4838: conversion from 'int' to 'unsigned short' requires a narrowing conversion
-C:\facultate\proiectip\electron\electron\misc.cxx(596,66): warning C4838: conversion from 'int' to 'unsigned short' requires a narrowing conversion
-C:\facultate\proiectip\electron\electron\misc.cxx(596,73): warning C4838: conversion from 'int' to 'unsigned short' requires a narrowing conversion
-C:\facultate\proiectip\electron\electron\misc.cxx(596,80): warning C4838: conversion from 'int' to 'unsigned short' requires a narrowing conversion
-C:\facultate\proiectip\electron\electron\misc.cxx(596,87): warning C4838: conversion from 'int' to 'unsigned short' requires a narrowing conversion
-C:\facultate\proiectip\electron\electron\misc.cxx(597,38): warning C4838: conversion from 'int' to 'unsigned short' requires a narrowing conversion
-C:\facultate\proiectip\electron\electron\misc.cxx(597,45): warning C4838: conversion from 'int' to 'unsigned short' requires a narrowing conversion
-C:\facultate\proiectip\electron\electron\misc.cxx(597,52): warning C4838: conversion from 'int' to 'unsigned short' requires a narrowing conversion
-C:\facultate\proiectip\electron\electron\misc.cxx(597,59): warning C4838: conversion from 'int' to 'unsigned short' requires a narrowing conversion
-C:\facultate\proiectip\electron\electron\misc.cxx(597,66): warning C4838: conversion from 'int' to 'unsigned short' requires a narrowing conversion
-C:\facultate\proiectip\electron\electron\misc.cxx(597,73): warning C4838: conversion from 'int' to 'unsigned short' requires a narrowing conversion
-C:\facultate\proiectip\electron\electron\misc.cxx(597,80): warning C4838: conversion from 'int' to 'unsigned short' requires a narrowing conversion
-C:\facultate\proiectip\electron\electron\misc.cxx(597,87): warning C4838: conversion from 'int' to 'unsigned short' requires a narrowing conversion
-C:\facultate\proiectip\electron\electron\misc.cxx(598,38): warning C4838: conversion from 'int' to 'unsigned short' requires a narrowing conversion
-C:\facultate\proiectip\electron\electron\misc.cxx(598,45): warning C4838: conversion from 'int' to 'unsigned short' requires a narrowing conversion
-C:\facultate\proiectip\electron\electron\misc.cxx(598,52): warning C4838: conversion from 'int' to 'unsigned short' requires a narrowing conversion
-C:\facultate\proiectip\electron\electron\misc.cxx(598,59): warning C4838: conversion from 'int' to 'unsigned short' requires a narrowing conversion
-C:\facultate\proiectip\electron\electron\misc.cxx(598,66): warning C4838: conversion from 'int' to 'unsigned short' requires a narrowing conversion
-C:\facultate\proiectip\electron\electron\misc.cxx(598,73): warning C4838: conversion from 'int' to 'unsigned short' requires a narrowing conversion
-C:\facultate\proiectip\electron\electron\misc.cxx(598,80): warning C4838: conversion from 'int' to 'unsigned short' requires a narrowing conversion
-C:\facultate\proiectip\electron\electron\misc.cxx(598,87): warning C4838: conversion from 'int' to 'unsigned short' requires a narrowing conversion
-C:\facultate\proiectip\electron\electron\misc.cxx(599,38): warning C4838: conversion from 'int' to 'unsigned short' requires a narrowing conversion
-C:\facultate\proiectip\electron\electron\misc.cxx(599,45): warning C4838: conversion from 'int' to 'unsigned short' requires a narrowing conversion
-C:\facultate\proiectip\electron\electron\misc.cxx(599,52): warning C4838: conversion from 'int' to 'unsigned short' requires a narrowing conversion
-C:\facultate\proiectip\electron\electron\misc.cxx(599,59): warning C4838: conversion from 'int' to 'unsigned short' requires a narrowing conversion
-C:\facultate\proiectip\electron\electron\misc.cxx(599,66): warning C4838: conversion from 'int' to 'unsigned short' requires a narrowing conversion
-C:\facultate\proiectip\electron\electron\misc.cxx(599,73): warning C4838: conversion from 'int' to 'unsigned short' requires a narrowing conversion
-C:\facultate\proiectip\electron\electron\misc.cxx(599,80): warning C4838: conversion from 'int' to 'unsigned short' requires a narrowing conversion
-C:\facultate\proiectip\electron\electron\misc.cxx(599,87): warning C4838: conversion from 'int' to 'unsigned short' requires a narrowing conversion
-  mouse.cxx
-  palette.cxx
-  main.cxx
-C:\facultate\proiectip\electron\electron\main.cxx(189,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cxx(189,9): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cxx(192,33): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cxx(192,9): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cxx(195,42): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cxx(194,56): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cxx(194,38): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cxx(194,20): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cxx(333,23): warning C4805: '==': unsafe mix of type 'int' and type 'bool' in operation
-C:\facultate\proiectip\electron\electron\main.cxx(367,21): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cxx(388,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\facultate\proiectip\electron\electron\main.cxx(397,21): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-  text.cxx
-C:\facultate\proiectip\electron\electron\text.cxx(348,19): warning C4018: '<': signed/unsigned mismatch
-  winbgi.cxx
-C:\facultate\proiectip\electron\electron\winbgi.cxx(134,14): warning C4101: 'actual_color': unreferenced local variable
-C:\facultate\proiectip\electron\electron\winbgi.cxx(133,9): warning C4101: 'bgi_color': unreferenced local variable
-C:\facultate\proiectip\electron\electron\winbgi.cxx(494,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  winthread.cxx
-C:\facultate\proiectip\electron\electron\winthread.cxx(320,9): warning C4101: 'i': unreferenced local variable
-  Generating Code...
-bgi\Debug\main.obj : warning LNK4042: object specified more than once; extras ignored
+﻿  main.cpp
+C:\facultate\proiectip\electron\electron\main.cpp(60,32): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(113,14): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(114,33): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(114,28): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(114,14): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(114,10): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(115,44): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(115,39): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(115,25): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(115,20): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(116,33): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(116,29): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(116,25): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(116,20): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(132,89): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(132,67): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(132,45): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(132,23): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(144,79): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(144,69): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(144,64): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(144,61): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(144,48): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(144,26): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(155,46): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(155,38): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(155,30): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(155,22): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(157,30): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(157,22): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(190,9): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+C:\facultate\proiectip\electron\electron\main.cpp(216,13): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+C:\facultate\proiectip\electron\electron\main.cpp(229,13): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+C:\facultate\proiectip\electron\electron\main.cpp(241,31): warning C4305: '+=': truncation from 'double' to 'float'
+C:\facultate\proiectip\electron\electron\main.cpp(243,31): warning C4305: '-=': truncation from 'double' to 'float'
+C:\facultate\proiectip\electron\electron\main.cpp(333,20): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(377,35): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(378,35): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(382,37): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(383,37): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(402,35): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(403,35): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(467,49): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(468,49): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(474,31): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(474,28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(528,17): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(566,41): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(566,33): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(566,25): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(566,17): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(567,36): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(567,28): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(567,20): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(567,12): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(568,26): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(568,21): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(568,15): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(568,10): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(569,36): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(569,28): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(569,20): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(569,12): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(571,72): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(571,64): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(571,55): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(571,47): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(573,37): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(573,29): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(573,20): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(573,12): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(574,36): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(574,28): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(574,20): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(574,12): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(576,37): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(576,29): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(576,20): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(576,12): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(578,42): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(578,34): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(578,25): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(578,17): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(579,25): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(579,17): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(581,70): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(581,62): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(581,53): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(581,45): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(593,39): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(606,38): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(607,38): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(624,34): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(625,34): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(654,37): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(654,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(654,21): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(658,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(658,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(683,28): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(686,28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(686,25): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(691,41): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(691,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(722,41): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\facultate\proiectip\electron\electron\main.cpp(722,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   bgi.vcxproj -> C:\facultate\proiectip\electron\electron\Debug\bgi.exe

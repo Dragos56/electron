@@ -5,6 +5,7 @@
 #include <cstring>
 #include <stdlib.h>
 #include <fstream>
+#include <cmath>
 
 using namespace std;
 
@@ -17,7 +18,11 @@ using namespace std;
 #define MAX1 20
 #define MAX2 100
 #define nrTemplates 10
+#define ENTER 13
+#define ESC 27
+#define BACKSPACE 8
 
+int win1;
 bool inMeniu = true;
 bool deselect;
 bool drawing = false;
@@ -44,6 +49,8 @@ struct eclipse {
 };
 
 struct piesa {
+    int valoare;
+    int nrCifre = 0;
     float orientare = 0;
     float zoom;
     int id;
@@ -71,6 +78,7 @@ void CoordonateCursorClick();
 void Legatura();
 void DeseneazaComponente();
 void DeseneazaPin();
+void ValoareComponenta();
 void ZoomComponenta();
 void RotesteComponenta();
 void StergeComponenta();
@@ -163,6 +171,67 @@ void DeseneazaLegatura()
         float coordonate2_y = Conexiuni[i].piesa2->pin[Conexiuni[i].pin2].y * zoom2 + Conexiuni[i].piesa2->centru.y;
         Legatura(coordonate1_x, coordonate1_y, coordonate2_x, coordonate2_y, WHITE);
     }
+}
+
+void ValoareComponenta(int k)
+{
+    int win2=initwindow(300, 300, "Valoare componenta",getmaxwidth()/2,getmaxheight()/2);
+    setcurrentwindow(win2);
+    setbkcolor(culoare_fundal);
+    char input[100] = { '\0' };
+    int i = 0;
+    settextstyle(2, 0, 8);
+    outtextxy(35, 50, "Seteaza o valoare:");
+    bar(50, 150, 250, 200);
+    char tasta;
+    char text[100];
+    if (componente[k].valoare >= 0)
+    {
+        itoa(componente[k].valoare, text, 10);
+        setcolor(BLACK);
+        setbkcolor(WHITE);
+        outtextxy(65, 165, text);
+        setcolor(WHITE);
+        setbkcolor(culoare_fundal);
+    }
+    tasta = getch();
+    while (1)
+    {
+        tasta = getch();
+        if (tasta == ENTER || tasta == ESC)
+        {
+            settextstyle(0, 0, 0);
+            setcurrentwindow(win1);
+            closegraph(win2);
+            break;
+        }
+        else if (tasta == BACKSPACE && componente[k].nrCifre>0)
+        {
+            componente[k].valoare /= 10;
+            componente[k].nrCifre--;
+            setcolor(WHITE);
+            bar(50, 150,250,200); //sterge tot
+            setcolor(BLACK);
+            setbkcolor(WHITE);
+            itoa(componente[k].valoare, text, 10);
+            outtextxy(65, 165, text);
+            setcolor(WHITE);
+            setbkcolor(culoare_fundal);
+        }
+        else if(tasta!=BACKSPACE && componente[k].nrCifre<9 && tasta>='0' && tasta<='9')
+        {
+            if(componente[k].nrCifre==0 && (tasta-'0')==1)
+                bar(50, 150, 250, 200);
+            componente[k].valoare = componente[k].valoare*10 + tasta-'0';
+            componente[k].nrCifre++;
+            setcolor(BLACK);
+            setbkcolor(WHITE);
+            itoa(componente[k].valoare, text, 10);
+            outtextxy(65, 165, text);
+            setcolor(WHITE);
+            setbkcolor(culoare_fundal);
+        }
+    } 
 }
 
 void ZoomComponenta(int k, int semn)
@@ -279,6 +348,8 @@ int ApasaFunctie(float x, float y, int k)
         return 4;
     if (x >= centru_x - 20 && x <= centru_x + 20 && y <= centru_y + 20 && y >= centru_y - 20)
         return 5;
+    if (x >= centru_x - 80 && x <= centru_x + 80 && y >= centru_y - 155 && y <= centru_y - 130)
+        return 6;
     return -1;
 }
 
@@ -434,7 +505,7 @@ void SaveFile(char nume[50])
     fout << nrComponente << endl;
     for (int i = 0; i < nrComponente; i++)
     {
-        fout << componente[i].id << " " << componente[i].centru.x << " " << componente[i].centru.y << " " << componente[i].zoom << " " << componente[i].orientare << endl;
+        fout << componente[i].id << " " << componente[i].centru.x << " " << componente[i].centru.y << " " << componente[i].zoom << " " << componente[i].orientare << " "<<componente[i].valoare<< " "<< componente[i].nrCifre<<endl;
     }
     fout << nrLegaturi << endl;
     for (int i = 0; i < nrLegaturi; i++)
@@ -452,7 +523,7 @@ void LoadFile(char nume[50])
     {
         fin >> componente[i].id;
         componente[i] = templates[componente[i].id];
-        fin >> componente[i].centru.x >> componente[i].centru.y >> componente[i].zoom >> componente[i].orientare;
+        fin >> componente[i].centru.x >> componente[i].centru.y >> componente[i].zoom >> componente[i].orientare>>componente[i].valoare>> componente[i].nrCifre;
         int aux = componente[i].orientare;
         while (aux != 0)
         {
@@ -502,6 +573,9 @@ void ListaButoane(int k)
     line(x - 20, y - 90, x - 20, y - 120);
 
     line(x + 30, y - 105, x + 10, y - 105); //-
+    
+    rectangle(x - 80, y - 155, x + 80, y - 130);
+    outtextxy(x - 10, y - 150, "EDIT");
 
     readimagefile("componente/gunoi.jpg", x + 41, y - 129, x + 79, y - 81); //gunoi
 }
@@ -627,6 +701,7 @@ void SchemaElectronica() //asta o modific direct, nu cred ca are nevoie de multe
                 case 3:ZoomComponenta(pozitie, -1); break;
                 case 4:StergeComponenta(pozitie); goto get_out;
                 case 5:MiscaComponenta(pozitie); break;
+                case 6:ValoareComponenta(pozitie); break;
                 }
                 SchimbaPagina();
                 cleardevice();
@@ -719,7 +794,7 @@ void InitializareLista() {
 
 int main()
 {
-    initwindow(l, h, "Electron");
+    win1=initwindow(l, h, "Electron");
 
     InitializareLista();
 
